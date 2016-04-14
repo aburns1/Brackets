@@ -1,0 +1,39 @@
+int myFunction(int myParameter)   // I like camel notation and will use it almost everywhere
+{   // I prefer to place the opening bracket on the line after for functions
+    
+    int myReturn;
+    if(myParameter >= 0){  // but on the same line as my conditionals
+        myReturn = myParameter^2;
+        myReturn -= 2;
+        return myReturn;    // } not here... never here
+    }   // here
+    return 0;
+
+}   // for functions, the gap around the code pleases me.
+
+void main(void)
+{
+
+    int myVariable; // I don't normally use "my" so much.
+    
+    if(condition)
+        one action;    // I'm okay with this
+        
+    if(condition) one action;   // I'm likely to change this to match above
+    
+    if(condition)
+        one action;
+    else if(condition)
+        another action; // even if this works, it makes me uncomfortable
+    else
+        another action; // very uncomfortable
+        
+    if(){
+        action;
+    }else if(){
+        action;
+    }else{
+        action;
+    }   // I prefer this, less fixing needed if you need to do more than one action at some point
+
+}
